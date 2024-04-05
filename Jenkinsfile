@@ -15,3 +15,11 @@ pipeline {
         }
     }
 }
+stage('Example') {
+            steps {
+                echo 'Example..'
+                // Application deployment scripts
+            }
+        }
+    }
+}
